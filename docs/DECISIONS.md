@@ -9,3 +9,4 @@
 | 5 | Three roles: plan, build, apply | Each job gets only the access it needs |
 | 6 | AWS resource prefix `gatepass-` (lowercase) | Easy to find, tag, and clean up |
 | 7 | Banned: EC2, Fargate, ALB, NAT gateway, RDS | Hourly billing burns credits |
+| 8 | `main` protected by a ruleset: pull request required, no force-push, no deletion; approvals set to 0 | Solo developer, GitHub won't let you approve your own pull request |
